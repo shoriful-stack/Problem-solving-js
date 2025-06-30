@@ -1,10 +1,3 @@
-// ৩। একটা ফাংশন লিখুন যেখানে আউটপুট হিসাবে লিখা গুলো রিভার্স হবে।
-
-function reverseString(string){
-    return string.split("").reverse().join("");
-}
-console.log(reverseString("Habiba"));
-
 // ৪। একটা ফাংশন লিখুন যেখানে ইনপুট হিসাবে নিবে ইন্টিজার আউটপুট আসবে আসবে শুধুমাত্র জোড় সংখ্যা। 
 
 function evenNumber(array){
