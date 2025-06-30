@@ -1,22 +1,3 @@
-// ১।  একটা ফাংশন লিখুন যেখানে ইনপুট হিসাবে যাই গ্রহণ করুক আউটপুট আসবে লেটারের প্রথম অক্ষর বড় হাতের মানে (Capitalize)
-
-function capitalizeFirstLetter(string){
-    return string.charAt(0).toUpperCase() + string.slice(1);
-}
-
-console.log(capitalizeFirstLetter("sazid"));
-
-// 2.। একটা ফাংশন লিখুন যেখানে ইনপুট হিসাবে নিবে এন এবং আউটপুট হিসাবে ইন্টিজারের সাথে এন যুক্ত হয়ে একটা এরে আসবে।
-
-function createArrayWithN(n) {
-    let array = [];
-    for(let i = 0; i < n; i++){
-        array.push(i);
-    }
-    return array
-}
-console.log(createArrayWithN(5))
-
 // ৩। একটা ফাংশন লিখুন যেখানে আউটপুট হিসাবে লিখা গুলো রিভার্স হবে।
 
 function reverseString(string){
