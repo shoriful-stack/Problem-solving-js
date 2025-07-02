@@ -1,10 +1,10 @@
 // 2.। একটা ফাংশন লিখুন যেখানে ইনপুট হিসাবে নিবে এন এবং আউটপুট হিসাবে ইন্টিজারের সাথে এন যুক্ত হয়ে একটা এরে আসবে।
 
-// লজিক:
-// একটি ফাঁকা array বানাবো।
-// 0 থেকে n পর্যন্ত লুপ চালাবো।
-// প্রতিটি সংখ্যাকে সেই array-তে push করব।
-// শেষে array রিটার্ন করব।
+// Logic:
+// 1. create an empty array
+// 2. run loop from 0 to n
+// 3. push every number into the array
+// 4. return the array
 
 
 // Pseudo Code:

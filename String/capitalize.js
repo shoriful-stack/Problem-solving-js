@@ -1,12 +1,11 @@
 // ১।  একটা ফাংশন লিখুন যেখানে ইনপুট হিসাবে যাই গ্রহণ করুক আউটপুট আসবে লেটারের প্রথম অক্ষর বড় হাতের মানে (Capitalize)
 
-//  লজিক:
-// প্রথমে চেক করবো ইনপুটটি ফাঁকা কিনা। যদি ফাঁকা হয়, তাহলে খালি string রিটার্ন করবো।
-// যদি না হয়:
-// প্রথম অক্ষরটি বের করবো: str.charAt(0)
-// এটি বড় হাতের করবো: .toUpperCase()
-// এরপর বাকি অংশটুকু নেবো: str.slice(1)
-// প্রথম অক্ষর (বড় হাতের) + বাকি অংশ একসাথে জুড়ে রিটার্ন করবো।
+// Logic:
+// 1. check if input is empty..then return the empty string. 
+// 2. take the first letter: str.charAt(0)
+// 3. convert the first letter into uppercase: .toUpperCase()
+// 4. then take the rest of the word: str.slice(1)
+// 4. then join the two portion and return
 
 // Pseudo Code:
 // Function CapitalizeFirstLetter(Input: str)

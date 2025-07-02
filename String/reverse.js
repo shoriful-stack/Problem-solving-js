@@ -1,13 +1,12 @@
+// Codewars
 // ৩। একটা ফাংশন লিখুন যেখানে আউটপুট হিসাবে লিখা গুলো রিভার্স হবে।
 
-// লজিক:
-// ইনপুট স্ট্রিংটি ফাঁকা কিনা তা আগে চেক করবো।
-// যদি ফাঁকা হয়, তাহলে খালি স্ট্রিং রিটার্ন করবো।
-// যদি ফাঁকা না হয়, তাহলে:
-// স্ট্রিংটিকে character array-তে ভেঙে ফেলবো: split('')
-// এই array-কে উল্টে দিবো: reverse()
-// আবার এই character array-কে string-এ পরিণত করবো: join('')
-// এবং সেই রিভার্স string রিটার্ন করবো।
+// Logic:
+// 1. check if input is empty..then return the empty string. 
+// 2. split the string and create an array: split('')
+// 3. then reverse the array: reverse()
+// 4. again join the reversed array: join('')
+// 5. return the reversed array
 
 // Pseudo Code:
 // Function ReverseString(Input: str)
@@ -24,6 +23,9 @@
 
 
 function reverseString(string){
+    if(!string){
+        return "";
+    }
     return string.split("").reverse().join("");
 }
 console.log(reverseString("Habiba"));
